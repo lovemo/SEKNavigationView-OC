@@ -8,10 +8,19 @@ SEKNavigationView - lazy used viewController
 #### usage:
 CocoaPods：
 ```
-	pod 'SEKNavigationView-OC'
+pod 'SEKNavigationView-OC'
 ```
 
 ---
 
 
 ![image](https://github.com/lovemo/SEKNavigationView-OC/raw/master/resources/demo.gif)
+
+---
+
+### Contributing to SEKNavigationView-OC
+Welcome to [report Issues](https://github.com/lovemo/SEKNavigationView-OC/issues) or [pull requests](https://github.com/lovemo/SEKNavigationView-OC/pulls) to SEKNavigationView-OC.
+
+## License
+
+SEKNavigationView-OC is released under the MIT license. See LICENSE for details.
