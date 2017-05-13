@@ -42,6 +42,7 @@
 - (void)setupNavView {
     self.navigationController.navigationBar.hidden = YES;
     self.topNavView.frame = CGRectMake(0, 20, self.view.width, 44);
+    self.topNavView.delegate = self;
     self.topNavView.backgroundColor = [UIColor whiteColor];
     self.topNavView.titleButtonNormalColor = [[UIColor redColor] colorWithAlphaComponent:0.5];
     self.topNavView.titleButtonDisabledColor = [UIColor redColor];

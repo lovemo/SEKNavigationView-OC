@@ -14,9 +14,9 @@
 		04D15D421EC6B7B20065E4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D15D401EC6B7B20065E4CD /* LaunchScreen.storyboard */; };
 		04D15D4A1EC6B84A0065E4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D15D491EC6B84A0065E4CD /* Main.storyboard */; };
 		04D15D4D1EC6B8650065E4CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D4C1EC6B8650065E4CD /* MainViewController.m */; };
-		04D15D551EC6B9FD0065E4CD /* SegmentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D501EC6B9FD0065E4CD /* SegmentBaseViewController.m */; };
-		04D15D561EC6B9FD0065E4CD /* SEKNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D521EC6B9FD0065E4CD /* SEKNavigationView.m */; };
-		04D15D571EC6B9FD0065E4CD /* UIView+SEKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D541EC6B9FD0065E4CD /* UIView+SEKExtension.m */; };
+		04D15D5A1EC6DAEB0065E4CD /* SegmentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D591EC6DAEB0065E4CD /* SegmentBaseViewController.m */; };
+		04D15D601EC6DB120065E4CD /* SEKNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D5D1EC6DB120065E4CD /* SEKNavigationView.m */; };
+		04D15D611EC6DB120065E4CD /* UIView+SEKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D5F1EC6DB120065E4CD /* UIView+SEKExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		04D15D491EC6B84A0065E4CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		04D15D4B1EC6B8650065E4CD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		04D15D4C1EC6B8650065E4CD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		04D15D4F1EC6B9FD0065E4CD /* SegmentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentBaseViewController.h; sourceTree = "<group>"; };
-		04D15D501EC6B9FD0065E4CD /* SegmentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentBaseViewController.m; sourceTree = "<group>"; };
-		04D15D511EC6B9FD0065E4CD /* SEKNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEKNavigationView.h; sourceTree = "<group>"; };
-		04D15D521EC6B9FD0065E4CD /* SEKNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEKNavigationView.m; sourceTree = "<group>"; };
-		04D15D531EC6B9FD0065E4CD /* UIView+SEKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SEKExtension.h"; sourceTree = "<group>"; };
-		04D15D541EC6B9FD0065E4CD /* UIView+SEKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SEKExtension.m"; sourceTree = "<group>"; };
+		04D15D581EC6DAEB0065E4CD /* SegmentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentBaseViewController.h; sourceTree = "<group>"; };
+		04D15D591EC6DAEB0065E4CD /* SegmentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentBaseViewController.m; sourceTree = "<group>"; };
+		04D15D5C1EC6DB120065E4CD /* SEKNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEKNavigationView.h; sourceTree = "<group>"; };
+		04D15D5D1EC6DB120065E4CD /* SEKNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEKNavigationView.m; sourceTree = "<group>"; };
+		04D15D5E1EC6DB120065E4CD /* UIView+SEKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SEKExtension.h"; sourceTree = "<group>"; };
+		04D15D5F1EC6DB120065E4CD /* UIView+SEKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SEKExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		04D15D261EC6B7B20065E4CD = {
 			isa = PBXGroup;
 			children = (
-				04D15D4E1EC6B9FD0065E4CD /* SEKNavigationView */,
+				04D15D5B1EC6DB120065E4CD /* SEKNavigationView */,
 				04D15D311EC6B7B20065E4CD /* NavigationViewDemo */,
 				04D15D301EC6B7B20065E4CD /* Products */,
 			);
@@ -71,6 +71,8 @@
 		04D15D311EC6B7B20065E4CD /* NavigationViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04D15D581EC6DAEB0065E4CD /* SegmentBaseViewController.h */,
+				04D15D591EC6DAEB0065E4CD /* SegmentBaseViewController.m */,
 				04D15D351EC6B7B20065E4CD /* AppDelegate.h */,
 				04D15D361EC6B7B20065E4CD /* AppDelegate.m */,
 				04D15D381EC6B7B20065E4CD /* ViewController.h */,
@@ -94,17 +96,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04D15D4E1EC6B9FD0065E4CD /* SEKNavigationView */ = {
+		04D15D5B1EC6DB120065E4CD /* SEKNavigationView */ = {
 			isa = PBXGroup;
 			children = (
-				04D15D4F1EC6B9FD0065E4CD /* SegmentBaseViewController.h */,
-				04D15D501EC6B9FD0065E4CD /* SegmentBaseViewController.m */,
-				04D15D511EC6B9FD0065E4CD /* SEKNavigationView.h */,
-				04D15D521EC6B9FD0065E4CD /* SEKNavigationView.m */,
-				04D15D531EC6B9FD0065E4CD /* UIView+SEKExtension.h */,
-				04D15D541EC6B9FD0065E4CD /* UIView+SEKExtension.m */,
+				04D15D5C1EC6DB120065E4CD /* SEKNavigationView.h */,
+				04D15D5D1EC6DB120065E4CD /* SEKNavigationView.m */,
+				04D15D5E1EC6DB120065E4CD /* UIView+SEKExtension.h */,
+				04D15D5F1EC6DB120065E4CD /* UIView+SEKExtension.m */,
 			);
-			path = SEKNavigationView;
+			name = SEKNavigationView;
+			path = ../SEKNavigationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +181,10 @@
 			files = (
 				04D15D3A1EC6B7B20065E4CD /* ViewController.m in Sources */,
 				04D15D371EC6B7B20065E4CD /* AppDelegate.m in Sources */,
+				04D15D5A1EC6DAEB0065E4CD /* SegmentBaseViewController.m in Sources */,
 				04D15D341EC6B7B20065E4CD /* main.m in Sources */,
-				04D15D551EC6B9FD0065E4CD /* SegmentBaseViewController.m in Sources */,
-				04D15D571EC6B9FD0065E4CD /* UIView+SEKExtension.m in Sources */,
-				04D15D561EC6B9FD0065E4CD /* SEKNavigationView.m in Sources */,
+				04D15D611EC6DB120065E4CD /* UIView+SEKExtension.m in Sources */,
+				04D15D601EC6DB120065E4CD /* SEKNavigationView.m in Sources */,
 				04D15D4D1EC6B8650065E4CD /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +336,7 @@
 				04D15D481EC6B7B20065E4CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

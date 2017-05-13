@@ -10,8 +10,11 @@
 #import "UIView+SEKExtension.h"
 #import "SEKNavigationView.h"
 
-@interface SegmentBaseViewController : UIViewController
+@interface SegmentBaseViewController : UIViewController<SEKNavigationViewDelegate>
+
 @property (nonatomic, strong) UIScrollView *contentView;
 @property (nonatomic, strong) SEKNavigationView *topNavView;
+
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView;
+
 @end

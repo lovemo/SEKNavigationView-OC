@@ -8,7 +8,7 @@
 
 #import "SegmentBaseViewController.h"
 
-@interface SegmentBaseViewController ()<SEKNavigationViewDelegate, UIScrollViewDelegate>
+@interface SegmentBaseViewController ()<UIScrollViewDelegate>
 
 
 @end

@@ -218,7 +218,7 @@
         
         CGSize titleSize = [button.titleLabel.text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - 36, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: button.titleLabel.font} context:nil].size;
         
-        CGFloat btnLastW = titleSize.width + 10;
+        CGFloat btnLastW = titleSize.width;
         
         button.width = btnW > btnLastW ? btnW : btnLastW;
         lastBtn = button;
