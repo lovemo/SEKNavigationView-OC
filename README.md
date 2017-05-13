@@ -18,7 +18,7 @@ pod 'SEKNavigationView-OC'
 
 ---
 
-## Contributing to SEKNavigationView-OC
+### Contributing to SEKNavigationView-OC
 Welcome to [report Issues](https://github.com/lovemo/SEKNavigationView-OC/issues) or [pull requests](https://github.com/lovemo/SEKNavigationView-OC/pulls) to SEKNavigationView-OC.
 
 ## License
