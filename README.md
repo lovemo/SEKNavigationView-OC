@@ -5,6 +5,11 @@ SEKNavigationView - lazy used viewController
 
 [Swift版本](https://github.com/lovemo/SEKNavigationView)
 
+#### usage:
+CocoaPods：
+```
+	pod 'SEKNavigationView-OC'
+```
 
 ---
 
